@@ -67,6 +67,8 @@ let
       tilish
       tmux-fzf
       vim-tmux-navigator
+      yank
+      logging
     ]);
 in
 lib.flocke.mkConfig {
