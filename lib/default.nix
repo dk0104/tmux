@@ -1,4 +1,4 @@
-{ lib, inputs, snowfall-inputs }:
+{ ... }:
 
 let
   hr = text:

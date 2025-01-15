@@ -1,4 +1,4 @@
-{ lib, pkgs }:
+{ lib, pkgs, ... }:
 
 let
   hr = text:
@@ -69,6 +69,6 @@ let
       vim-tmux-navigator
     ]);
 in
-lib.mkConfig {
+lib.flocke.mkConfig {
   inherit pkgs plugins extra-config;
 }
