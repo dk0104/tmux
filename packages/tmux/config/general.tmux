@@ -19,6 +19,10 @@ bind l select-pane -R
 # Fix colors being wrong in programs like Neovim.
 set-option -ga terminal-overrides ",xterm-256color:Tc"
 
+set -g allow-passthrough on
+set -ga update-environment TERM
+set -ga update-environment TERM_PROGRAM
+
 # Expand the left status to accomodate longer session names.
 set-option -g status-left-length 100
 set-option -g status-right-length 100
